@@ -1,0 +1,62 @@
+body {
+	font-family: 'Odibee Sans', cursive;
+	line-height: 1.5;
+}
+
+.wrapper_one{
+	margin: 10% auto;
+	width: 80%;
+	background-color: #f8ffb2;
+}
+
+.wrapper_one .image	{
+	height: 780px;
+	width: 500px;
+
+	position: relative;
+
+	overflow: hidden;
+
+	float: left;
+
+	margin-right: 6%;
+
+}
+
+.wrapper_one img {
+	position: absolute;
+	width: 100%;
+	top: -31%;
+}
+
+.wrapper_one .description{
+	padding: 12%;		
+}
+
+.wrapper_two{
+	margin: 10% auto;
+	width: 80%;
+	background-color: #c4c4fd;
+}
+
+.wrapper_two .description{
+	padding: 8%;	
+	margin-right: 6%;
+	float: left;
+		
+}
+
+.wrapper_two .image	{
+	height: 780px;
+	width: 500px;
+
+	position: relative;
+
+	overflow: hidden;
+}
+
+.wrapper_two img {
+	position: absolute;
+	width: 100%;
+	bottom: -55%;
+}
